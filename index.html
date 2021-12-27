@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+            
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Multilink Test 3</title>
+    </head>
+    <body>
+        <div class="wrapper">
+        <!--==================== HEADER ====================-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="img/logo.jpg" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#base-course" class="active-link nav__link">Базовый Курс</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#course-reload" class="nav__link">Комби. Перезагрузка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#course-reload-max" class="nav__link">Макси. Перезагрузка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#course-base" class="nav__link">Идеальная База</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Работы Учеников</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+        
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+        
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </nav>
+
+            
+            <div class="header__info">
+                <h1 class="header__title">
+                    Школа Маникюра Марии Дворняковой
+                </h1>
+                <ul class="header__list">
+                    <li class="header__list-item">Выпускаем профессионалов</li>
+                    <li class="header__list-item">Лучшая школа маникюра в Нижнем Новгороде</li>
+                    <li class="header__list-item">Более 500 выпускников</li>
+                </ul>
+                <div class="header__photo">
+                    <img src="img/woman.png" alt="Школа Маникюра Марии Дворняковой" class="header__img">
+                </div>
+            </div>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <section class="intro section">
+                <div class="intro__titles-wrapper">
+                    <h2 class="intro__title">
+                        Мария Дворнякова
+                    </h2>
+                    <h3 class="intro__subtitle">
+                        Основатель школы и автор курсов
+                    </h3>
+                </div>
+                <ul class="intro__list">
+                    <li class="intro__list-item">В ногтевом бизнесе более 7 лет</li>
+                    <li class="intro__list-item">Руководитель студии маникюра и педикюра в Нижнем Новгороде</li>
+                    <li class="intro__list-item">Автор собственных методик и техник комбинированного и классического маникюра</li>
+                    <li class="intro__list-item">Автор методики укрепления ногтей</li>
+                    <li class="intro__list-item">Инструктор с многолетним стажем</li>
+                </ul>
+            </section>
+
+            <section class="courses section">
+                <h2 class="courses__main-title">Курсы</h2>
+                    <div class="courses__item">
+                        <h2 class="courses__title title" id="base-course">Базовый курс</h2>
+
+                        <h3 class="courses__subtitle subtitle">по маникюру</h3>
+
+                        <p class="courses__text">
+                            Вам необходим этот курс, если:
+                        </p>
+
+                        <ul class="courses__list">
+                            <li class="courses__list-item">Вы мечтаете работать в данной профессии и быть восстребованным специалистом</li>
+                            <li class="courses__list-item">Вы хотите получить качественные знания</li>
+                            <li class="courses__list-item">Вы хотите быстро набрать клиентскую базу</li>
+                            <li class="courses__list-item">Вы хотите знать все секреты и фишки в данном бизнесе</li>
+                        </ul>
+
+                        <div class="courses__outro-box">
+                            <h4 class="courses__outro-text">Длительность: <span class="ourses__outro-span">3 </span>дня</h4>
+                            <h4 class="courses__outro-text">Стоимость <span class="ourses__outro-span">24.000 </span>руб.</h4>
+                        </div>
+
+                        <div class="courses__button-section">
+                            <a href="#" class="courses__btn-solid btn btn-rotatay">Записаться на курс</a>
+                            <a href="#" class="courses__btn-hollow btn btn-hollow">Программа курса</a>
+                        </div>
+
+                        <div class="courses__disclaimer">
+                            <ul class="courses__disclaimer-list">
+                                <li class="courses__disclaimer-item">
+                                    На курсе предоставляются все материалы и инструменты
+                                </li>
+                                <li class="courses__disclaimer-item">
+                                    В подарок доступ к онлайн-курсу на выбор
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="courses__item" id="course-reload">
+                        <h3 class="courses__subtitle subtitle-top">Курс повышения квалификации</h3>
+
+                        <h2 class="courses__title title">"Комби.Перезагрузка"</h2>
+
+                        <p class="courses__text">
+                            Вам необходим этот курс, если:
+                        </p>
+
+                        <ul class="courses__list">
+                            <li class="courses__list-item">Вы новичок или опытный мастер</li>
+                            <li class="courses__list-item">Вы хотите научиться работать быстро и качественно</li>
+                            <li class="courses__list-item">Вы хотите повысить свой средний чек и зарабатывать гораздо больше</li>
+                            <li class="courses__list-item">Вы мечтаете выделиться среди конкурентов</li>
+                            <li class="courses__list-item">Вы хотите узнать все секреты стойкого покрытия</li>
+                        </ul>
+
+                        <div class="courses__outro-box">
+                            <h4 class="courses__outro-text">Длительность: <span class="ourses__outro-span">1 </span>день</h4>
+                            <h4 class="courses__outro-text">Стоимость <span class="ourses__outro-span">9.000 </span>руб.</h4>
+                        </div>
+
+                        <div class="courses__button-section">
+                            <a href="#" class="courses__btn-solid btn btn-rotatay">Записаться на курс</a>
+                            <a href="#" class="courses__btn-hollow btn btn-hollow">Программа курса</a>
+                        </div>
+
+                        <div class="courses__disclaimer">
+                            <ul class="courses__disclaimer-list">
+                                <li class="courses__disclaimer-item">
+                                    На курсе предоставляются все материалы и инструменты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="courses__item" id="course-reload-max">
+                        <h3 class="courses__subtitle subtitle-top" id="course-reload">Курс повышения квалификации</h3>
+
+                        <h2 class="courses__title title" id="base-course">"Макси.Перезагрузка"</h2>
+
+                        <p class="courses__text">
+                            Вам необходим этот курс, если:
+                        </p>
+
+                        <ul class="courses__list">
+                            <li class="courses__list-item">Вы опытный мастер и хотите продолжать обучаться</li>
+                            <li class="courses__list-item">Вы хотите научиться работать еще быстрее и качественнее</li>
+                            <li class="courses__list-item">Вы хотите повысить свой средний чек и зарабатывать гораздо больше</li>
+                            <li class="courses__list-item">Вы мечтаете выделиться среди конкурентов</li>
+                            <li class="courses__list-item">Вы хотите узнать все секреты стойкого покрытия</li>
+                        </ul>
+
+                        <div class="courses__outro-box">
+                            <h4 class="courses__outro-text">Длительность: <span class="ourses__outro-span">2 </span>дня</h4>
+                            <h4 class="courses__outro-text">Стоимость <span class="ourses__outro-span">16.000 </span>руб.</h4>
+                        </div>
+
+                        <div class="courses__button-section">
+                            <a href="#" class="courses__btn-solid btn btn-rotatay">Записаться на курс</a>
+                            <a href="#" class="courses__btn-hollow btn btn-hollow">Программа курса</a>
+                        </div>
+
+                        <div class="courses__disclaimer">
+                            <ul class="courses__disclaimer-list">
+                                <li class="courses__disclaimer-item">
+                                    На курсе предоставляются все материалы и инструменты
+                                </li>
+                                <li class="courses__disclaimer-item">
+                                    В подарок запись онлайн-курса на выбор
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="courses__item" id="course-reload-max">
+                        <h3 class="courses__subtitle subtitle-top" id="course-base">Курс</h3>
+
+                        <h2 class="courses__title title" id="base-course">"Идеальная база"</h2>
+
+                        <p class="courses__text">
+                            Вам необходим этот курс, если:
+                        </p>
+
+                        <ul class="courses__list">
+                            <li class="courses__list-item">Вы хотите научиться работать со слабыми, ломкими, скрученными и короткими ногтями</li>
+                            <li class="courses__list-item">Вы хотите раскрыть все секреты 100-процентной носибельности материала. У ваших клиентов больше не будет отслоек и сколов</li>
+                            <li class="courses__list-item">Вы хотите выполнять скоростное выравнивание ногтевой пластины</li>
+                            <li class="courses__list-item">Вы мечтаете выделиться среди конкурентов</li>
+                            <li class="courses__list-item">Вы хотите разобраться в причинах появления отслоек, сколов и понять как их избежать</li>
+                        </ul>
+
+                        <div class="courses__outro-box">
+                            <h4 class="courses__outro-text">Длительность: <span class="ourses__outro-span">1 </span>день</h4>
+                            <h4 class="courses__outro-text">Стоимость <span class="ourses__outro-span">3.500 </span>руб.</h4>
+                        </div>
+
+                        <div class="courses__button-section">
+                            <a href="#" class="courses__btn-solid btn btn-rotatay">Записаться на курс</a>
+                            <a href="#" class="courses__btn-hollow btn btn-hollow">Программа курса</a>
+                        </div>
+
+                        <div class="courses__disclaimer">
+                            <ul class="courses__disclaimer-list">
+                                <li class="courses__disclaimer-item">
+                                    На курсе предоставляются все материалы и инструменты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="work__title title">
+                    Работы учеников
+                </h2>
+                <div class="work__slider">
+                    <div class="work__slider-item"><img src="img/slides/1.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/2.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/3.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/4.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/5.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/6.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/7.jpg" alt="" class="work__slider-img"></div>
+                    <div class="work__slider-item"><img src="img/slides/8.jpg" alt="" class="work__slider-img"></div>
+                </div>
+            </section>
+
+            <section class="contacts section" id="contacts">
+                <h2 class="contacts__title title">
+                    Контакты
+                </h2>
+                <div class="contacts__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141708.51032751452!2d43.7860850087787!3d56.29193844489755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5f9ee033251%3A0x28d3c0cf849657aa!2z0J3QuNC20L3QuNC5INCd0L7QstCz0L7RgNC-0LQsINCd0LjQttC10LPQvtGA0L7QtNGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2sua!4v1639325738087!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contacts__adress">
+                    <h3 class="contacts__subtitle subtitle">
+                        Адрес:
+                    </h3>
+                    <p class="contacts__text">
+                        Нижний Новгород, Печерский съезд 18
+                    </p>
+                </div>
+                <div class="contacts__phone" id="btn-rotatay">
+                    <a href="tel:79081604373" class="contacts__call btn btn-hollow">
+                        <div class="contacts__btn-box"><i class="ri-phone-line"></i> +7 908 160 43 73</div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__copy">
+                
+                <p class="footer__copy-text text-bold">
+                    Хотите такую же мультиссылку?
+                </p>
+
+                <p class="footer__copy-text text-bold">
+                    Обращайтесь к <a href="#" class="footer__link btn-pulse">Vic from Selenite</a>
+                </p>
+                
+            </div>
+        </footer>
+        </div>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
