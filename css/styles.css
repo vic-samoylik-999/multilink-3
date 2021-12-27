@@ -118,7 +118,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -131,7 +131,14 @@ body {
 .subtitle-top {
     font-weight: 600;
     font-size: 1.2rem;
-    margin-bottom: -1.75rem;    
+    margin-bottom: -1.5rem;    
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle-top {
+        font-size: .9rem;
+        padding-bottom: .15rem;
+    }
 }
 
 .btn {
@@ -144,6 +151,12 @@ body {
     padding: 20px 0;
     text-align: center;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        font-size: .9rem;
+    }
 }
 
 .btn-hollow {
@@ -514,7 +527,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .courses__list {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 }
 
@@ -544,6 +557,17 @@ body {
 .ourses__outro-span {
     font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .courses__outro-text {
+        font-size: .75rem;
+    }
+
+    .ourses__outro-span {
+    font-size: 1.75rem;
+    }
+}
+
 .courses__button-section {
     display: flex;
     flex-direction: column;
@@ -553,6 +577,12 @@ body {
 
 .courses__disclaimer {
     
+}
+
+@media screen and (max-width: 600px) {
+    .courses__disclaimer-item {
+        font-size: .75rem;
+    }    
 }
 .courses__disclaimer-list {
     display: flex;
