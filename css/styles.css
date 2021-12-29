@@ -527,7 +527,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .courses__list {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 }
 
